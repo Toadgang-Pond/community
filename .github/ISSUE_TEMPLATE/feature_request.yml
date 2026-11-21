@@ -1,0 +1,28 @@
+name: Feature request
+description: Suggest an improvement for the Toadgang Pond ecosystem
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: input
+    id: project
+    attributes:
+      label: Project or area
+      placeholder: "Diamond OS, Agent Pond, Go Pond, community..."
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem this would solve
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: Alternatives or tradeoffs
